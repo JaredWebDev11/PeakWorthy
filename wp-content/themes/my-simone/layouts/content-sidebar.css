@@ -6,18 +6,19 @@ Layout: Content-Sidebar
 
 .site-content {
 	padding-bottom: 4em;
-	background: #b2b2b2;
+	background: #646464;
 }
 .single .site-content,
 .page .site-content {
-	background: #fff;
-	background: hsl(0, 0%, 100%);
+	background: #646464;
+	background: hsl(0, 0%, 39%);
 }
 
 .site-content .widget-area {
 	width: 380px;
 	float: right;
 	padding: 4rem;
+	background: #e4e3e2;
 }
 .site-footer {
 	clear: both;
@@ -37,8 +38,8 @@ Layout: Content-Sidebar
 	max-width: 78rem;
 	padding: 0 4rem;
 	margin: 0 auto;
-	background: #aaaaaa;
-	background: hsl(0, 0%, 66%);
+	background: #e4e3e2;
+	background: hsl(30, 3%, 89%);
 
 }
 
