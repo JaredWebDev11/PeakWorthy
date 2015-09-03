@@ -115,7 +115,7 @@ function my_simone_scripts() {
 			wp_enqueue_style( 'my-sinome-layout-style' , get_template_directory_uri() . '/layouts/content-sidebar.css');
 		}
         
-        wp_enqueue_style('my-simone-google-fonts', 'http://fonts.googleapis.com/css?family=Lato:100,400,700,900,400italic,900italic|PT+Serif:400,700,400italic,700italic');
+        wp_enqueue_style('my-simone-google-fonts', 'http://fonts.googleapis.com/css?family=Lato:100,400,700,900,400italic,900italic|PT+Serif:400,700,400italic,700italic|Exo+2:400,400italic,600,600italic,700,700italic,800,800italic');
         
         wp_enqueue_Style( 'my-simone-fontawesome', 'http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' );
 
