@@ -133,7 +133,7 @@ input,
 select,
 textarea {
 	color: #404040;
-        color: hsl(0, 0%, 25%);
+	color: hsl(0, 0%, 25%);
 	font-family: 'PT Serif', serif;
 	font-size: 18px;
 	font-size: 1.8rem;
@@ -141,9 +141,9 @@ textarea {
 }
 h1, h2, h3, h4, h5, h6 {
 	clear: right;
-        font-weight: 900;
-        font-family: 'Lato', sans-serif;
-        color: #000;
+        font-weight: 400;
+        font-family: 'Exo 2', sans-serif;
+        color: #000000;
         color: hsl(0, 0%, 0%);
         -ms-word-wrap: break-word;
         word-wrap: break-word;
@@ -269,7 +269,7 @@ input[type="submit"] {
     padding: 1em 2em;
     font-size: 16px;
     font-size: 1.6rem;
-    font-family: 'Lato';
+    font-family: 'Exo 2';
     text-transform: uppercase;
     line-height: 1;
     color: hsl(0, 0%, 100%);
@@ -323,7 +323,7 @@ input[type="password"],
 input[type="search"],
 textarea {
     padding: 8px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     color: #333;
     border: 1px solid #ccc;
 }
@@ -388,7 +388,7 @@ a:active {
     width: 100%;
     display: block;
     clear: both;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     text-transform: uppercase;
     background: #313131;
     background: hsl(0, 0%, 19%);
@@ -450,9 +450,9 @@ a:active {
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_item > a:hover,
 .main-navigation .current-menu-item > a:hover {
-    background: white;
-    color: #313131;
-    color: hsl(0, 0%, 19%);
+    background: #4d4d4d;
+    color: #ffffff;
+    color: hsl(0, 0%, 100%);
 }
 
 .main-navigation .current_page_ancestor {
@@ -582,13 +582,7 @@ a:active {
 
 .menu-social li a[href*="twitter.com"]::before { content: '\f099'; }
 
-.menu-social li a[href*="dribbble.com"]::before { content: '\f17d'; }
-
 .menu-social li a[href*="plus.google.com"]::before { content: '\f0d5'; }
-
-.menu-social li a[href*="pinterest.com"]::before { content: '\f0d2'; }
-
-.menu-social li a[href*="github.com"]::before { content: '\f09b'; }
 
 .menu-social li a[href*="tumblr.com"]::before { content: '\f173'; }
 
@@ -596,7 +590,7 @@ a:active {
 
 .menu-social li a[href*="flickr.com"]::before { content: '\f16e'; }
 
-.menu-social li a[href*="vimeo.com"]::before { content: '\f194'; }
+.menu-social li a[href*="reddit.com"]::before { content: '\f1a1'; }
 
 .menu-social li a[href*="instagram.com"]::before { content: '\f16d'; }
 
@@ -613,6 +607,7 @@ a:active {
     #menu-social li a { 
         padding-left:.5em;
         padding-right: .5em;
+		padding-top: .9em;
     }
 }
 
@@ -621,7 +616,7 @@ a:active {
 .site-main .post-navigation {
 	font-size: 18px;
 	font-size: 1.8rem;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	color: #000;
 	color: hsl(0, 0%, 0%);
 
@@ -828,12 +823,13 @@ X.X Header
 .search-toggle {
     float: right;
     width: 54px;
-    height: 54px;
+    height: 59px;
     padding: 12px;
     margin-right: 20px;
     color: #fff;
     text-align: center;
     cursor: pointer;
+
 }
 
 .search-toggle:hover,
@@ -864,7 +860,7 @@ input[type="search"] {
 }
 
 .search-box {
-    padding: 1em;
+    padding: .5em;
     background: #4d4d4d;
     background: hsl(0, 0%, 30%);
 }
@@ -872,7 +868,7 @@ input[type="search"] {
 .search-box .search-field {
     max-width: 362px;
     float: right;
-    padding: 1rem 2rem 1rem 4rem;
+    padding: .5rem 2rem .5rem 2rem;
     font-size: 20px;
     font-size: 2rem;
     background-color: #fff;
@@ -901,7 +897,7 @@ input[type="search"] {
 --------------------------------------------------------------*/
 .widget {
 	margin: 0 0 4em;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 }
@@ -1142,7 +1138,7 @@ input[type="search"] {
 /* Meta */
 .category-list {
 	margin: 0 0 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 }
@@ -1161,7 +1157,7 @@ input[type="search"] {
 	margin-top: 140px;
 	margin-left: 2em;
 	padding: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 14px;
 	font-size: 1.4rem;
 
@@ -1174,7 +1170,7 @@ input[type="search"] {
 .entry-footer {
 	margin-top: 3rem;
 	margin-bottom: 5rem;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 2em;
@@ -1283,7 +1279,7 @@ ol.children { list-style-type: none; }
 
 .comment-author .fn {
 	font-weight: 900;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 20px;
 	font-size: 2rem;
 }
@@ -1311,7 +1307,7 @@ ol.children { list-style-type: none; }
 
 .reply {
 	font-weight: 600;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 14px;
 	font-size: 1.4rem;
 }
@@ -1341,7 +1337,7 @@ ol.children { list-style-type: none; }
 
 .comment-form {
 	padding-bottom: 4rem;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 }
@@ -1359,7 +1355,7 @@ ol.children { list-style-type: none; }
 .comment-awaiting-moderation { /* Green background color to make moderation seem less aggressive */
 	padding: .5rem 1rem;
 	margin: 1rem 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	color: #fff;
@@ -1389,7 +1385,7 @@ ol.children { list-style-type: none; }
 .taxonomy-description {
 	padding-top: 2rem;
 	margin: 2rem 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	font-style: italic;
 	border-top: 1px solid hsl(0, 0%, 75%);
 	border-bottom: 1px solid hsl(0, 0%, 75%);
@@ -1435,7 +1431,7 @@ ol.children { list-style-type: none; }
 	padding: 0.8075em 1em;
 	font-size: 14px;
 	font-size: 1.4rem;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	background: #e5e5e5;
 	background: hsl(0, 0%, 90%);
 }
@@ -1552,7 +1548,7 @@ object {
 
 .site-footer {
 	padding: .5em;
-	font-family: 'Lato';
+	font-family: 'Exo 2';
 	font-size: 12px;
 	font-size: 1.2rem;
 	color: #fff;
