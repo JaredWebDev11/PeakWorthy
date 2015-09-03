@@ -607,6 +607,7 @@ a:active {
     #menu-social li a { 
         padding-left:.5em;
         padding-right: .5em;
+		padding-top: .9em;
     }
 }
 
