@@ -49,8 +49,8 @@ Layout: Content-Sidebar
 	max-width: 78rem;
 	padding: 0 0 0;
 	margin: 0 auto 0;
-	background: #fff;
-	background: hsl(0, 0%, 100%);
+	background: #ff2e43;
+	background: hsl(353, 100%, 59%);    /* this controls color of entry-meta box that needs attention */
 }
 
 @media screen and (min-width: 1540px) {
