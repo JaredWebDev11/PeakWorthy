@@ -143,8 +143,8 @@ h1, h2, h3, h4, h5, h6 {
 	clear: right;
         font-weight: 900;
         font-family: 'Lato', sans-serif;
-        color: #ff2e43;
-        color: hsl(353, 100%, 59%);
+        color: #000000;
+        color: hsl(0, 0%, 0%);
         -ms-word-wrap: break-word;
         word-wrap: break-word;
 }
