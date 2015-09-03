@@ -822,12 +822,13 @@ X.X Header
 .search-toggle {
     float: right;
     width: 54px;
-    height: 54px;
+    height: 59px;
     padding: 12px;
     margin-right: 20px;
     color: #fff;
     text-align: center;
     cursor: pointer;
+
 }
 
 .search-toggle:hover,
