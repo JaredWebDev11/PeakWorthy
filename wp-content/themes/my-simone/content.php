@@ -46,7 +46,7 @@
 	</header><!-- .entry-header -->
 
 		<div class="entry-meta">
-		</div><!-- .entry-meta -->
+		</div><!-- .entry-meta -->  <!-- this is the div that controls the thumbnail picture on content index pages -->
 
 	<?php
 	if( $wp_query->current_post == 0 && !is_paged() && is_front_page() ) {
