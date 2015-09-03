@@ -19,21 +19,7 @@
 
 		?>
 
-
-
 <!-- Put Advertizing widget div here -->
-
-
-		<div class="entry-meta">
-			<!-- < ?php my_simone_posted_on(); ? >   This function calls author writen by line. -->
-			<?php
-			if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) {
-				echo '<span class="comments-link">';
-				comments_popup_link( __( 'Leave a comment', 'my-simone' ), __( '1 Comment', 'my-simone' ), __( '% Comments', 'my-simone' ) );
-				echo '</span>';
-			}
-			?>
-		</div><!-- .entry-meta -->
 
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 
