@@ -859,7 +859,7 @@ input[type="search"] {
 }
 
 .search-box {
-    padding: 1em;
+    padding: .5em;
     background: #4d4d4d;
     background: hsl(0, 0%, 30%);
 }
@@ -867,7 +867,7 @@ input[type="search"] {
 .search-box .search-field {
     max-width: 362px;
     float: right;
-    padding: 1rem 2rem 1rem 4rem;
+    padding: .5rem 2rem .5rem 2rem;
     font-size: 20px;
     font-size: 2rem;
     background-color: #fff;
