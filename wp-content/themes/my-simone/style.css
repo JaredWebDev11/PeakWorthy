@@ -450,9 +450,9 @@ a:active {
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_item > a:hover,
 .main-navigation .current-menu-item > a:hover {
-    background: white;
-    color: #313131;
-    color: hsl(0, 0%, 19%);
+    background: #4d4d4d;
+    color: #ffffff;
+    color: hsl(0, 0%, 100%);
 }
 
 .main-navigation .current_page_ancestor {
