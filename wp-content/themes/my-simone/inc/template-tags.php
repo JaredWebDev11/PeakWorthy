@@ -59,13 +59,13 @@ if ( ! function_exists( 'my_simone_paging_nav' ) ) :
 	}
 endif;
 
-if ( ! function_exists( 'my_simone_post_nav' ) ) :
+if ( ! function_exists( 'post_nav' ) ) :
 /**
  * Display navigation to next/previous post when applicable.
  *
  * @return void
  */
-function my_simone_post_nav() {
+function post_nav() {
 	// Don't print empty markup if there's nowhere to navigate.
 	$previous = ( is_attachment() ) ? get_post( get_post()->post_parent ) : get_adjacent_post( false, '', true );
 	$next     = get_adjacent_post( false, '', false );
