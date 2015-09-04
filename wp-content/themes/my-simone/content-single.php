@@ -31,10 +31,6 @@
 		<?php wp_link_pages( array(
 			'before'      => '<div class="page-links">' . __( '', 'my-simone' ),
 			'after'       => '</div>',
-			'link_before' => '<span class="page-links-title">',
-			'link_after'  => '</span>',
-			'nextpagelink'     => __( 'Next' ),
-			'previouspagelink' => __( 'Previous' ),
 		) );
 		?>
 
