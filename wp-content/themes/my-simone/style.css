@@ -352,10 +352,36 @@ textarea {
 /*--------------------------------------------------------------
 5.0 Navigation
 --------------------------------------------------------------*/
-.entry-content .page-links {
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
 	height: 100px;
 	width: 150px;
 	display: inline-block;
+}
+
+
+.page-links a:link {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 8px;
+	padding: 7px 4px;
+	display: block;
+	border: solid;
+	border-radius: 2%;
+
+}
+.page-links a:hover {
+	background: #646464;
+	color: #FFFFFF;
+}
+.page-links a:focus {
+	background: #646464;
+	color: #FFFFFF;
+}
+.page-links a:active {
+	background: #646464;
+	color: #FFFFFF;
 }
 
 /*--------------------------------------------------------------
@@ -1210,29 +1236,6 @@ input[type="search"] {
 	text-align: center;
 
 }
-.page-links {
-	clear: both;
-	margin: 0 0 1.5em;
-}
-
-
-.page-links a:link {
-	font-size: 18px;
-	font-weight: bold;
-	margin: 8px;
-	padding: 7px 4px;
-	display: block;
-	border: solid;
-	border-radius: 2%;
-
-}
-.page-links a:hover,
-			a:focus,
-			a:active {
-	background: #646464;
-	color: #FFFFFF;
-}
-
 
 .posted-on:before {
 	content: ' on ';
