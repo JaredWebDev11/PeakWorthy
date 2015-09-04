@@ -1,7 +1,15 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: ThePad
- * Date: 9/4/15
- * Time: 9:28 AM
+    bottom of site widget
  */
+
+if ( ! is_active_sidebar( 'sidebar-4' ) ) {
+    return;
+}
+?>
+
+<div id="supplementary">
+    <div id="bottom-widgets" class="bottom-widgets widget-area clear" role="complementary">
+        <?php dynamic_sidebar( 'sidebar-4' ); ?>
+    </div><!-- #bottom-sidebar -->
+</div><!-- #supplementary -->
