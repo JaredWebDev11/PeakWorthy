@@ -44,7 +44,7 @@ Layout: Content-Sidebar
 	position: relative;
 	max-width: 780px;
 	max-width: 78rem;
-	padding: 0 4rem;
+	padding: 0 4rem 2rem 2rem;
 	margin: 0 auto;
 	background: #e4e3e2;
 	background: hsl(30, 3%, 89%);
