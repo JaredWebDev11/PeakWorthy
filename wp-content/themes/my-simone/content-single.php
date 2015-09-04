@@ -19,7 +19,7 @@
 
 		?>
 
-<!-- Put Advertizing widget div here -->
+		<?php get_sidebar('top'); ?>  <!-- top ad widget here -->
 
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 

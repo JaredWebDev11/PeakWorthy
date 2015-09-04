@@ -20,6 +20,14 @@ Layout: Content-Sidebar
 	padding: 4rem;
 	background: #e4e3e2;
 }
+
+/* CSS added to position top widget area on single post pages*/
+.site-content .top-widgets {
+	width: 100%;
+	padding: 1em 0 .5em 0;
+	float: left;
+} /* ============================*/
+
 .site-footer {
 	clear: both;
 	width: 100%;

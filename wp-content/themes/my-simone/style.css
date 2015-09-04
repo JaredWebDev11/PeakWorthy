@@ -1012,6 +1012,7 @@ input[type="search"] {
 	display: none;
 }
 
+/*footer widget*/
 .footer-widgets { margin: 0 auto; }
 
 .footer-widgets .widget-title,
@@ -1039,11 +1040,38 @@ input[type="search"] {
 	}
 }
 
-/* top widget */
+/* Top widget */     /*unsure how much i need these styles since styles for footer are in content-sidebar.css */
+.top-widgets {				/* test in index pages, home pages and archive pages to double check */
+	width: 100%;
+}
 
+.top-widgets .widget-title,
+.top-widgets .widget a:hover {
+	color: #fff;
+	color: hsl(0, 0%, 100%);
+	border-color: #fff;
+	border-color: hsl(0, 0%, 100%);
+}
 
+.top-widgets .widget {
+	clear: left;
+	width: 100%;
+	margin: 0 0 0 0;
 
-/* bottom widget */
+}
+
+/* Top widgets responsive */
+@media screen and (max-width: 879px) {
+	#top-widgets { width: 100%!important; }
+
+	.top-widgets .widget {
+		float: none;
+		width: 100%;
+		margin: 0 0 1rem;
+	}
+}
+
+/* Bottom widget */
 
 
 
