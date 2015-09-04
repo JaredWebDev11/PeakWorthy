@@ -352,21 +352,26 @@ textarea {
 /*--------------------------------------------------------------
 5.0 Navigation
 --------------------------------------------------------------*/
+
+/* all css for next and previous buttons */
+
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
-	height: 100px;
+	display: inline-block;
+}
+.page-links a {
+	margin: 0 0 1.5em;
+	height: 50px;
 	width: 150px;
 	display: inline-block;
 }
-
-
 .page-links a:link {
 	font-size: 18px;
 	font-weight: bold;
 	margin: 8px;
 	padding: 7px 4px;
-	display: block;
+	display: inline-block;
 	border: solid;
 	border-radius: 2%;
 
