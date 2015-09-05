@@ -67,6 +67,12 @@ Layout: Content-Sidebar
 		width: 100%;
 		margin-right: -380px;
 	}
+	.site-content .top-widgets {
+		width: auto;
+		max-width: 780px;
+		float: none;
+		margin: 1em auto 0;
+	}
 }
 
 @media screen and (min-width: 1160px) and (max-width: 1539px) {
@@ -76,7 +82,12 @@ Layout: Content-Sidebar
 		margin-left: -380px;
 		padding-left: 380px;
 	}
-
+	.site-content .top-widgets {
+		width: auto;
+		max-width: 780px;
+		float: none;
+		margin: 1em auto 0;
+	}
 	.entry-header,
 	.entry-content,
 	.entry-footer,

@@ -33,6 +33,8 @@
 	<div class="index-box">
 	<header class="entry-header">
 
+		<?php get_sidebar('top'); ?>  <!-- top ad widget here -->
+
 		<?php
 		if (is_sticky()) {
 			echo '<i class="fa fa-thumb-tack sticky-post"></i>';

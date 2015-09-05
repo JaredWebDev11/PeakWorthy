@@ -1043,21 +1043,19 @@ input[type="search"] {
 /* Top widget */     /*unsure how much i need these styles since styles for footer are in content-sidebar.css */
 .top-widgets {				/* test in index pages, home pages and archive pages to double check */
 	width: 100%;
+	float: right;
 }
-
+.top-widgets .widget {
+	clear: left;
+	width: 100%;
+	margin: 0 0 0 0;
+}
 .top-widgets .widget-title,
 .top-widgets .widget a:hover {
 	color: #fff;
 	color: hsl(0, 0%, 100%);
 	border-color: #fff;
 	border-color: hsl(0, 0%, 100%);
-}
-
-.top-widgets .widget {
-	clear: left;
-	width: 100%;
-	margin: 0 0 0 0;
-
 }
 
 /* Top widgets responsive */
@@ -1067,7 +1065,7 @@ input[type="search"] {
 	.top-widgets .widget {
 		float: none;
 		width: 100%;
-		margin: 0 0 1rem;
+		margin: 0 2rem 1rem;
 	}
 }
 
