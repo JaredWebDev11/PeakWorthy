@@ -17,6 +17,7 @@
 	}
 	?>
 	<header class="entry-header">
+		<?php get_sidebar('top'); ?>  <!-- top ad widget here -->
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 	</header><!-- .entry-header -->
 
@@ -29,5 +30,8 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
+	<div class="entry-header2">
+		<?php get_sidebar('bottom'); ?>  <!-- bottom ad widget here -->
+	</div>
 	<?php edit_post_link( __( 'Edit', 'my-simone' ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer>' ); ?>
 </article><!-- #post-## -->
