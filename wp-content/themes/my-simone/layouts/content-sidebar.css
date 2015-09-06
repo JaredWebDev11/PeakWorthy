@@ -24,7 +24,7 @@ Layout: Content-Sidebar
 /* CSS added to position top widget area on single post pages*/
 .site-content .top-widgets {
 	width: 100%;
-	padding: 1em 0 .5em 0;
+	padding: 1em 0 .5em 1em;
 	float: left;
 } /* ============================*/
 
@@ -43,7 +43,7 @@ Layout: Content-Sidebar
 .paging-navigation {
 	max-width: 780px;
 	max-width: 78rem;
-	padding: 0 4rem 2rem 2rem;
+	padding: 0 4rem 0rem 2rem;
 	margin: 0 auto;
 	background: #e4e3e2;
 	background: hsl(30, 3%, 89%);
@@ -55,8 +55,8 @@ Layout: Content-Sidebar
 	max-width: 78rem;
 	padding: 0 0 0;
 	margin: 0 auto 0;
-	background: #ff2e43;
-	background: hsl(353, 100%, 59%);    /* this controls color of entry-meta box that needs attention */
+	background: #e4e3e2;
+	background: hsl(30, 3%, 89%);    /* this controls color of entry-meta box that needs attention */
 }
 
 @media screen and (min-width: 1540px) {
