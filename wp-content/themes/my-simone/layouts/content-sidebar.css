@@ -48,6 +48,7 @@ Layout: Content-Sidebar
 	margin: 0 auto;
 	background: #e4e3e2;
 	background: hsl(30, 3%, 89%);
+	display: inline-block;
 
 }
 

@@ -5,31 +5,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php
-//	if( $wp_query->current_post == 0 && !is_paged() && is_front_page() ) { // Custom template for the first post on the front page
-//		if (has_post_thumbnail()) {
-//			echo '<div class="front-index-thumbnail clear">';
-//			echo '<div class="image-shifter">';
-//			echo '<a href="' . get_permalink() . '" title="' . __('Read ', 'my-simone') . get_the_title() . '" rel="bookmark">';
-//			echo the_post_thumbnail('large-thumb');
-//			echo '</a>';
-//			echo '</div>';
-//			echo '</div>';
-//		}
-//		echo '<div class="index-box';
-//		if (has_post_thumbnail()) { echo ' has-thumbnail'; };
-//		echo '">';
-//	} else {
-		echo '<div class="index-box">';
-		if (has_post_thumbnail()) {
-			echo '<div class="small-index-thumbnail clear">';
-			echo '<a href="' . get_permalink() . '" title="' . __('Read ', 'my-simone') . get_the_title() . '" rel="bookmark">';
-			echo the_post_thumbnail('index-thumb');
-			echo '</a>';
-			echo '</div>';
-		}
 
-	?>
 	<div class="index-box">
 	<header class="entry-header">
 
@@ -40,15 +16,23 @@
 			echo '<i class="fa fa-thumb-tack sticky-post"></i>';
 		}
 		?>
+
+		<?php
+		echo '<div class="index-box">';
+		if (has_post_thumbnail()) {
+			echo '<div class="small-index-thumbnail clear">';
+			echo '<a href="' . get_permalink() . '" title="' . __('Read ', 'my-simone') . get_the_title() . '" rel="bookmark">';
+			echo the_post_thumbnail('index-thumb');
+			echo '</a>';
+			echo '</div>';
+		}
+		?>
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-
-		<div class="entry-meta">
-		</div><!-- .entry-meta -->  <!-- this is the div that controls the thumbnail picture on content index pages -->
 
 	<?php
 	if( $wp_query->current_post == 0 && !is_paged() && is_front_page() ) {

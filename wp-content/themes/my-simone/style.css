@@ -1093,9 +1093,14 @@ input[type="search"] {
 	line-height: 1.3em;
 	color: #000;
 	color: hsl(0, 0%, 0%);
+	display: inline-block;
 }
 .page .entry-title {
 	margin-top: .7em;
+}
+.entry-title a {
+	display:inline-block;
+	
 }
 
 .entry-content a {
@@ -1219,20 +1224,6 @@ input[type="search"] {
 .category-list a:hover {
 	color: #000;
 	color: hsl(0, 0%, 0%);
-}
-
-.entry-meta {
-	margin-top: 140px;
-	margin-left: 2em;
-	padding: 0;
-	font-family: 'Exo 2', sans-serif;
-	font-size: 14px;
-	font-size: 1.4rem;
-
-}
-
-.entry-meta a {
-	font-weight: 600;
 }
 
 .entry-footer {
@@ -1572,6 +1563,7 @@ object {
 	margin-left: 1em;
 	margin-right: 1em;
 	float: left;
+	display: inline-block;
 }
 .front-index-thumbnail {
 	margin-bottom: -3.2em;
