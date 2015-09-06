@@ -34,15 +34,10 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php
-	if( $wp_query->current_post == 0 && !is_paged() && is_front_page() ) {
-		echo '<div class="entry-content">';
-		the_excerpt( __( '', 'my-simone' ) );
-		echo '</div>';
-	} else { ?>
+	<?php ?>
 		<div class="entry-content">
 			<?php the_excerpt(); ?>
 		</div><!-- .entry-content -->
-	<?php } ?>
+	<?php ?>
 	</div><!-- .index-box -->
 </article><!-- #post-## -->
