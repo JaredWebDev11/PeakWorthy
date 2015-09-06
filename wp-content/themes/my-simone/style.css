@@ -1093,15 +1093,12 @@ input[type="search"] {
 	line-height: 1.3em;
 	color: #000;
 	color: hsl(0, 0%, 0%);
-	display: inline-block;
+
 }
 .page .entry-title {
 	margin-top: .7em;
 }
-.entry-title a {
-	display:inline-block;
-	
-}
+
 
 .entry-content a {
 	text-decoration: underline;
@@ -1563,7 +1560,7 @@ object {
 	margin-left: 1em;
 	margin-right: 1em;
 	float: left;
-	display: inline-block;
+
 }
 .front-index-thumbnail {
 	margin-bottom: -3.2em;

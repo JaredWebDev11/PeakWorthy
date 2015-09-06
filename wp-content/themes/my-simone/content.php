@@ -7,7 +7,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<div class="index-box">
-	<header class="entry-header">
 
 		<?php get_sidebar('top'); ?>  <!-- top ad widget here -->
 
@@ -32,7 +31,6 @@
 		<?php if ( 'post' == get_post_type() ) : ?>
 
 		<?php endif; ?>
-	</header><!-- .entry-header -->
 
 	<?php ?>
 		<div class="entry-content">
