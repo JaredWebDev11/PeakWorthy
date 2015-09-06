@@ -12,38 +12,26 @@
 		/* translators: used between list items, there is a space after the comma */
 		$category_list = get_the_category_list( __( ', ', 'my-simone' ) );
 
-		// if ( my_simone_categorized_blog() ) {
-		//	echo '<div class="category-list">' . $category_list . '</div>';
-		//}
+	//	 if ( my_simone_categorized_blog() ) {
+	//		echo '<div class="category-list">' . $category_list . '</div>';
+	//	}
 		// the last comments take out the categories from above the title page.
 
 		?>
 
+		<?php get_sidebar('top'); ?>  <!-- top ad widget here -->
+
 		<h1 class="entry-title"><?php the_title(); ?></h1>
-
-<!-- Put Advertizing widget div here -->
-
-
-		<div class="entry-meta">
-			<!-- < ?php my_simone_posted_on(); ? >   This function calls author writen by line. -->
-			<?php
-			if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) {
-				echo '<span class="comments-link">';
-				comments_popup_link( __( 'Leave a comment', 'my-simone' ), __( '1 Comment', 'my-simone' ), __( '% Comments', 'my-simone' ) );
-				echo '</span>';
-			}
-			?>
-		</div><!-- .entry-meta -->
 
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 		<?php the_content(); ?>
-		<?php
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( '', 'my-simone' ),
-				'after'  => '</div>',
-			) );
+
+		<?php wp_link_pages( array(
+			'before'      => '<div class="page-links">' . __( '', 'my-simone' ),
+			'after'       => '</div>',
+		) );
 		?>
 
 	</div><!-- .entry-content -->

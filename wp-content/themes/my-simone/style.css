@@ -132,7 +132,7 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
+	color: #000000;
 	color: hsl(0, 0%, 25%);
 	font-family: 'PT Serif', serif;
 	font-size: 18px;
@@ -352,10 +352,40 @@ textarea {
 /*--------------------------------------------------------------
 5.0 Navigation
 --------------------------------------------------------------*/
-.entry-content .page-links {
-	height: 100px;
+
+/* all css for next and previous buttons */
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+	display: inline-block;
+}
+.page-links a {
+	margin: 0 0 1.5em;
+	height: 50px;
 	width: 150px;
 	display: inline-block;
+}
+.page-links a:link {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 8px;
+	padding: 7px 4px;
+	display: inline-block;
+	border: solid;
+	border-radius: 2%;
+}
+.page-links a:hover {
+	background: #646464;
+	color: #FFFFFF;
+}
+.page-links a:focus {
+	background: #646464;
+	color: #FFFFFF;
+}
+.page-links a:active {
+	background: #646464;
+	color: #FFFFFF;
 }
 
 /*--------------------------------------------------------------
@@ -392,11 +422,12 @@ a:active {
     text-transform: uppercase;
     background: #313131;
     background: hsl(0, 0%, 19%);
+
 }
 .main-navigation ul {
 	list-style: none;
 	margin: 0;
-	padding-left: 0;
+	padding-left: .77em;
 }
 .main-navigation li {
 	float: left;
@@ -981,6 +1012,7 @@ input[type="search"] {
 	display: none;
 }
 
+/*footer widget*/
 .footer-widgets { margin: 0 auto; }
 
 .footer-widgets .widget-title,
@@ -1008,6 +1040,42 @@ input[type="search"] {
 	}
 }
 
+/* Top widget */     /*unsure how much i need these styles since styles for footer are in content-sidebar.css */
+.top-widgets {				/* test in index pages, home pages and archive pages to double check */
+	width: 100%;
+	float: right;
+}
+.top-widgets .widget {
+	clear: left;
+	width: 100%;
+	margin: 0 0 0 0;
+}
+.top-widgets .widget-title,
+.top-widgets .widget a:hover {
+	color: #fff;
+	color: hsl(0, 0%, 100%);
+	border-color: #fff;
+	border-color: hsl(0, 0%, 100%);
+}
+
+/* Top widgets responsive */
+@media screen and (max-width: 879px) {
+	#top-widgets { width: 100%!important; }
+
+	.top-widgets .widget {
+		float: none;
+		width: 100%;
+		margin: 0 2rem 1rem;
+	}
+}
+
+/* Bottom widget */
+
+
+
+
+
+
 /*--------------------------------------------------------------
 10.0 Content
 --------------------------------------------------------------*/
@@ -1018,17 +1086,19 @@ input[type="search"] {
 }
 /* Typography */
 .entry-title {
-	margin: 0 0 2rem;
-	font-weight: 900;
+	margin: 0 0 0;
+	font-weight: 400;
 	font-size: 40px;
 	font-size: 4rem;
 	line-height: 1.3em;
 	color: #000;
 	color: hsl(0, 0%, 0%);
+
 }
 .page .entry-title {
 	margin-top: .7em;
 }
+
 
 .entry-content a {
 	text-decoration: underline;
@@ -1074,8 +1144,8 @@ input[type="search"] {
 .entry-content p,
 .entry-content ul,
 .entry-content ol {
-	font-size: 20px;
-	font-size: 2rem;
+	font-size: 16px;
+	font-size: 1.6rem;
 	line-height: 1.6em;
 }
 
@@ -1125,8 +1195,8 @@ input[type="search"] {
 	.entry-content p,
 	.entry-content ul,
 	.entry-content ol  {
-		font-size: 18px;
-		font-size: 1.8rem;
+		font-size: 12px;
+		font-size: 1.2rem;
 	}
 
 	.entry-content blockquote p {
@@ -1151,20 +1221,6 @@ input[type="search"] {
 .category-list a:hover {
 	color: #000;
 	color: hsl(0, 0%, 0%);
-}
-
-.entry-meta {
-	margin-top: 140px;
-	margin-left: 2em;
-	padding: 0;
-	font-family: 'Exo 2', sans-serif;
-	font-size: 14px;
-	font-size: 1.4rem;
-
-}
-
-.entry-meta a {
-	font-weight: 600;
 }
 
 .entry-footer {
@@ -1209,23 +1265,6 @@ input[type="search"] {
 	text-align: center;
 
 }
-.page-links {
-	clear: both;
-	margin: 0 0 1.5em;
-}
-
-
-.page-links a:link {
-	font-size: 18px;
-	font-weight: bold;
-	margin: 8px;
-	padding: 7px 4px;
-	display: block;
-	border: solid;
-	border-radius: 25%;
-
-}
-
 
 .posted-on:before {
 	content: ' on ';
@@ -1521,6 +1560,7 @@ object {
 	margin-left: 1em;
 	margin-right: 1em;
 	float: left;
+
 }
 .front-index-thumbnail {
 	margin-bottom: -3.2em;

@@ -90,7 +90,7 @@ function my_simone_widgets_init() {
 		'after_title'   => '</h1>',
 	) );
         
-        register_sidebar( array(
+	register_sidebar( array(
 		'name'          => __( 'Footer Widgets', 'my-simone' ),
                 'description'   => __( 'Footer widgets area appears in the footer of the site.', 'my-simone'),
 		'id'            => 'sidebar-2',
@@ -99,7 +99,26 @@ function my_simone_widgets_init() {
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
-        
+
+	register_sidebar( array(
+		'name'          => __( 'Top Widgets', 'my-simone' ),
+		'description'   => __( 'Top of site widget that goes under main nav menu.', 'my-simone'),
+		'id'            => 'sidebar-3',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Bottom Widgets', 'my-simone' ),
+		'description'   => __( 'Bottom Widget that goes under content and above footer.', 'my-simone'),
+		'id'            => 'sidebar-4',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
 }
 add_action( 'widgets_init', 'my_simone_widgets_init' );
 

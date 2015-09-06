@@ -6,19 +6,28 @@ Layout: Content-Sidebar
 
 .site-content {
 	padding-bottom: 4em;
-	background: #b2b2b2;
+	background: #646464;
 }
 .single .site-content,
 .page .site-content {
-	background: #fff;
-	background: hsl(0, 0%, 100%);
+	background: #646464;
+	background: hsl(0, 0%, 39%);
 }
 
 .site-content .widget-area {
 	width: 380px;
 	float: right;
 	padding: 4rem;
+	background: #e4e3e2;
 }
+
+/* CSS added to position top widget area on single post pages*/
+.site-content .top-widgets {
+	width: 100%;
+	padding: 1em 0 .5em 1em;
+	float: left;
+} /* ============================*/
+
 .site-footer {
 	clear: both;
 	width: 100%;
@@ -32,24 +41,23 @@ Layout: Content-Sidebar
 .comments-area,
 .page-header,
 .paging-navigation {
-	position: relative;
 	max-width: 780px;
 	max-width: 78rem;
-	padding: 0 4rem;
+	padding: 0 4rem 0rem 2rem;
 	margin: 0 auto;
-	background: #aaaaaa;
-	background: hsl(0, 0%, 66%);
-
+	background: #e4e3e2;
+	background: hsl(30, 3%, 89%);
 }
-
-
+.entry-content p {
+	text-align: left;
+}
 .index-box {
 	max-width: 780px;
 	max-width: 78rem;
 	padding: 0 0 0;
 	margin: 0 auto 0;
-	background: #fff;
-	background: hsl(0, 0%, 100%);
+	background: #e4e3e2;
+	background: hsl(30, 3%, 89%);    /* this controls color of entry-meta box that needs attention */
 }
 
 @media screen and (min-width: 1540px) {
@@ -57,6 +65,12 @@ Layout: Content-Sidebar
 		float: left;
 		width: 100%;
 		margin-right: -380px;
+	}
+	.site-content .top-widgets {
+		width: auto;
+		max-width: 780px;
+		float: none;
+		margin: 1em auto 0;
 	}
 }
 
@@ -67,7 +81,12 @@ Layout: Content-Sidebar
 		margin-left: -380px;
 		padding-left: 380px;
 	}
-
+	.site-content .top-widgets {
+		width: auto;
+		max-width: 780px;
+		float: none;
+		margin: 1em auto 0;
+	}
 	.entry-header,
 	.entry-content,
 	.entry-footer,

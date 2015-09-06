@@ -14,50 +14,6 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
-				<h1 class="page-title">
-					<?php
-					if ( is_category() ) :
-						printf( __( 'Posts in the ', 'my-simone' ) );
-						echo '<em>';
-						single_cat_title();
-						echo '</em> ' . __('category', 'my-simone') . ':';
-
-					elseif ( is_tag() ) :
-						printf( __( 'Posts with the ', 'my-simone' ) );
-						echo '<em>';
-						single_tag_title();
-						echo '</em> ' . __('tag', 'my-simone') . ':';
-
-					elseif ( is_author() ) :
-						printf( __( 'Author: %s', 'my-simone' ), '<span class="vcard">' . get_the_author() . '</span>' );
-
-					elseif ( is_day() ) :
-						printf( __( 'Posts from %s', 'my-simone' ), '<span>' . get_the_date() . '</span>' );
-
-					elseif ( is_month() ) :
-						printf( __( 'Posts from %s', 'my-simone' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'my-simone' ) ) . '</span>' );
-
-					elseif ( is_year() ) :
-						printf( __( 'Posts from %s', 'my-simone' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'my-simone' ) ) . '</span>' );
-
-					elseif ( is_tax( 'post_format', 'post-format-aside' ) ) :
-						_e( 'Asides', 'my-simone' );
-
-					else :
-						_e( 'Archives', 'my-simone' );
-
-					endif;
-					?>
-				</h1>
-				<?php
-					// Show an optional term description.
-					$term_description = term_description();
-					if ( ! empty( $term_description ) ) :
-						printf( '<div class="taxonomy-description">%s</div>', $term_description );
-					endif;
-				?>
-			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
