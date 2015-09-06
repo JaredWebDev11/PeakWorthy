@@ -26,7 +26,13 @@ Layout: Content-Sidebar
 	width: 100%;
 	padding: 1em 0 .5em 1em;
 	float: left;
-} /* ============================*/
+}
+.site-content .bottom-widgets {
+	width: 100%;
+	padding: 1em 0 .5em 1em;
+	float: left;
+}
+ /* ============================*/
 
 .site-footer {
 	clear: both;
@@ -34,6 +40,7 @@ Layout: Content-Sidebar
 }
 
 .entry-header,
+.entry-header2,
 .entry-content,
 .entry-footer,
 .tag-links,
@@ -43,13 +50,16 @@ Layout: Content-Sidebar
 .paging-navigation {
 	max-width: 780px;
 	max-width: 78rem;
-	padding: 0 4rem 0rem 2rem;
 	margin: 0 auto;
 	background: #e4e3e2;
 	background: hsl(30, 3%, 89%);
 }
+.entry-header2 {      /* added this style to be used for bottom widget */
+	margin-top: -2em;
+}
 .entry-content p {
 	text-align: left;
+	margin-left: 1em;
 }
 .index-box {
 	max-width: 780px;
@@ -72,6 +82,12 @@ Layout: Content-Sidebar
 		float: none;
 		margin: 1em auto 0;
 	}
+	.site-content .bottom-widgets {
+		width: auto;
+		max-width: 780px;
+		float: none;
+		margin: 1em auto 0;
+	}
 }
 
 @media screen and (min-width: 1160px) and (max-width: 1539px) {
@@ -87,7 +103,14 @@ Layout: Content-Sidebar
 		float: none;
 		margin: 1em auto 0;
 	}
+	.site-content .bottom-widgets {
+		width: auto;
+		max-width: 780px;
+		float: none;
+		margin: 1em auto 0;
+	}
 	.entry-header,
+	.entry-header2,
 	.entry-content,
 	.entry-footer,
 	.tag-links,

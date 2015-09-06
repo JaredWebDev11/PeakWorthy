@@ -36,6 +36,10 @@
 
 	</div><!-- .entry-content -->
 
+	<div class="entry-header2">
+	<?php get_sidebar('bottom'); ?>  <!-- bottom ad widget here -->
+	</div>
+
 	<footer class="entry-footer">
 
 		<?php

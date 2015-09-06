@@ -36,6 +36,10 @@ get_header(); ?>
 
 		<?php endif; ?>
 
+			<div class="entry-header2">
+				<?php get_sidebar('bottom'); ?>  <!-- bottom ad widget here -->
+			</div>
+
 		</main><!-- #main -->
 	</section><!-- #primary -->
 

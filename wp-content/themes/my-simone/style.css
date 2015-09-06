@@ -1071,7 +1071,29 @@ input[type="search"] {
 
 /* Bottom widget */
 
+.bottom-widgets .widget {
+	clear: left;
+	width: 100%;
+	margin: 0 0 0 0;
+}
+.bottom-widgets .widget-title,
+.bottom-widgets .widget a:hover {
+	color: #fff;
+	color: hsl(0, 0%, 100%);
+	border-color: #fff;
+	border-color: hsl(0, 0%, 100%);
+}
 
+/* Top widgets responsive */
+@media screen and (max-width: 879px) {
+	#bottom-widgets { width: 100%!important; }
+
+	.bottom-widgets .widget {
+		float: none;
+		width: 100%;
+		margin: 0 2rem 1rem;
+	}
+}
 
 
 
@@ -1086,7 +1108,7 @@ input[type="search"] {
 }
 /* Typography */
 .entry-title {
-	margin: 0 0 0;
+	margin: 0 0 0 .5em;
 	font-weight: 400;
 	font-size: 40px;
 	font-size: 4rem;
