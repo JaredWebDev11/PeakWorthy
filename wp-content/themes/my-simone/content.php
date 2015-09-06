@@ -43,8 +43,6 @@
 		<div class="entry-content">
 			<?php the_excerpt(); ?>
 		</div><!-- .entry-content -->
-		<footer class="entry-footer continue-reading">
-		</footer><!-- .entry-footer -->
 	<?php } ?>
 	</div><!-- .index-box -->
 </article><!-- #post-## -->
