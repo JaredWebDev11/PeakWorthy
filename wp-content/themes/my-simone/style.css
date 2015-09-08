@@ -365,6 +365,8 @@ textarea {
 	height: 50px;
 	width: 150px;
 	display: inline-block;
+	background: #e9ded3;
+
 }
 .page-links a:link {
 	font-size: 18px;
@@ -376,16 +378,16 @@ textarea {
 	border-radius: 2%;
 }
 .page-links a:hover {
-	background: #646464;
-	color: #FFFFFF;
+	background: #008fdd;
+	color: #000000;
 }
 .page-links a:focus {
-	background: #646464;
-	color: #FFFFFF;
+	background: #008fdd;
+	color: #000000;
 }
 .page-links a:active {
-	background: #646464;
-	color: #FFFFFF;
+	background: #008fdd;
+	color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -394,7 +396,7 @@ textarea {
 a {
     text-decoration: none;	
     color: #000;
-    color: hsl(0, 0%, 0%);    
+    color: hsl(0, 0%, 0%);
 }
 
 a:visited {
@@ -666,6 +668,37 @@ a:active {
 	float: right;
 	padding-left: 15%;
 	text-align: right;
+}
+
+.post-navigation a {
+	display: block;
+	padding: 3.8461% 7.6923%;
+}
+
+.post-navigation span {
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	color: #646464;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Exo 2", sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	letter-spacing: 0.04em;
+	line-height: 1.5;
+	position: relative;
+	text-transform: uppercase;
+	z-index: 2;
+}
+
+.post-navigation .post-title {
+	font-family: "Exo 2", serif;
+	font-size: 20px;
+	font-size: 2.0rem;
+	line-height: 1.3333;
+	position: relative;
+	z-index: 2;
 }
 
 .nav-indicator {
@@ -1120,6 +1153,7 @@ input[type="search"] {
 
 .entry-content a {
 	text-decoration: underline;
+	color: #000000;
 }
 
 .entry-content h1,
