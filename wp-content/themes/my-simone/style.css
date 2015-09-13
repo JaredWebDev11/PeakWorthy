@@ -467,8 +467,8 @@ a:active {
 .main-navigation li:hover > a {
     color: #fff;
     color: hsl(0, 0%, 100%);
-    background: #4d4d4d;
-    background: hsl(0, 0%, 30%);
+    background: #9c9c9c;
+    background: hsl(0, 0%, 61%);
 }
 .main-navigation ul ul :hover > a {
 }
@@ -483,14 +483,14 @@ a:active {
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_item > a:hover,
 .main-navigation .current-menu-item > a:hover {
-    background: #4d4d4d;
+    background: #9c9c9c;
     color: #ffffff;
     color: hsl(0, 0%, 100%);
 }
 
 .main-navigation .current_page_ancestor {
-    background: #4d4d4d;
-    background: hsl(0, 0%, 30%);
+    background: #9c9c9c;
+    background: hsl(0, 0%, 61%);
 }
 
 .main-navigation ul ul .current_page_parent,
@@ -832,7 +832,7 @@ X.X Header
 --------------------------------------------------------------*/
 .header-image img {
     display: block;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .header-background-image {
@@ -1281,7 +1281,7 @@ input[type="search"] {
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 2em;
-	padding-bottom: 3em;
+	padding-bottom: 5em;
 }
 
 .entry-footer ul {
