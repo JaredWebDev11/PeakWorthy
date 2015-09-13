@@ -6,12 +6,12 @@ Layout: Content-Sidebar
 
 .site-content {
 	padding-bottom: 4em;
-	background: #646464;
+	background: #9c9c9c;
 }
 .single .site-content,
 .page .site-content {
-	background: #646464;
-	background: hsl(0, 0%, 39%);
+	background: #9c9c9c;
+	background: hsl(0, 0%, 61%);
 }
 
 .site-content .widget-area {
