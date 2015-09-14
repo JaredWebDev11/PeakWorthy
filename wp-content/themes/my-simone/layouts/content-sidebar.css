@@ -60,6 +60,7 @@ Layout: Content-Sidebar
 .entry-content p {
 	text-align: left;
 	margin-left: 1em;
+	margin-right: 1.25em;
 }
 .index-box {
 	max-width: 780px;
