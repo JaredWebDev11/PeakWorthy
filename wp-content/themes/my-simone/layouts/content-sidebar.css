@@ -95,7 +95,7 @@ Layout: Content-Sidebar
 	.content-area {
 		width: 100%;
 		float: left;
-		margin-left: -400px;
+		margin-left: -380px;
 		padding-left: 380px;
 	}
 	.site-content .top-widgets {
