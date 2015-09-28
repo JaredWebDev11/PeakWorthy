@@ -4,7 +4,7 @@ Theme URI: www.peakworthy.com
 Author: The Boss Daddy
 Author URI: www.peawkworthy.com
 Description: Theme created for the PeakWorthy.com website. responsive and made using underscores base theme.
-Version: 1.0
+Version: 1.1
 License: GNU General Public License
 License URI: license.txt
 Text Domain: peakworthy
@@ -960,7 +960,7 @@ input[type="search"] {
 9.0 Widgets
 --------------------------------------------------------------*/
 .widget {
-	margin: 0 0 4em;
+	margin: 0 0 .5em;
 	font-family: 'Exo 2', sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;

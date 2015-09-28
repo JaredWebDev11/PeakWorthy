@@ -17,7 +17,7 @@ Layout: Content-Sidebar
 .site-content .widget-area {
 	width: 380px;
 	float: right;
-	padding: 4rem;
+	padding: 1rem 4rem;
 	background: #e4e3e2;
 }
 
@@ -81,7 +81,8 @@ Layout: Content-Sidebar
 		width: auto;
 		max-width: 780px;
 		float: none;
-		margin: 1em auto 0;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	.site-content .bottom-widgets {
 		width: auto;
@@ -102,7 +103,8 @@ Layout: Content-Sidebar
 		width: auto;
 		max-width: 780px;
 		float: none;
-		margin: 1em auto 0;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	.site-content .bottom-widgets {
 		width: auto;
@@ -130,7 +132,8 @@ Layout: Content-Sidebar
 		width: auto;
 		max-width: 780px;
 		float: none;
-		margin: 1em auto 0;
+		margin-right: auto;
+		margin-left: auto;
 	}
 }
 .page-header,
