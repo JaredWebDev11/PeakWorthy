@@ -365,7 +365,7 @@ textarea {
 	height: 50px;
 	width: 150px;
 	display: inline-block;
-	background: #e9ded3;
+	background: #ffffff;
 
 }
 .page-links a:link {
@@ -374,22 +374,47 @@ textarea {
 	margin: 8px;
 	padding: 7px 4px;
 	display: inline-block;
-	border: solid;
-	border-radius: 2%;
+	border: thin solid;
+	border-radius: 5px;
 }
 .page-links a:hover {
-	background: #008fdd;
-	color: #000000;
+	background: #0f7dec;
+	color: #ffffff;
+	-webkit-animation: buttonColor 1.5s; /* Chrome, Safari, Opera - Button background-color animation */
+	animation: buttonColor 1.5s;
+	-webkit-animation: buttonText 1.5s; /* Chrome, Safari, Opera - Button text-color animation */
+	animation: buttonText 1.5s;
 }
+/*                       =====CSS - changed next buttons do not think i need a:focus or a:active =====
 .page-links a:focus {
-	background: #008fdd;
+
 	color: #000000;
 }
 .page-links a:active {
-	background: #008fdd;
+
 	color: #000000;
 }
-
+*/
+/* Chrome, Safari, Opera */
+@-webkit-keyframes buttonColor {
+	from {background-color: #ffffff;}
+	to {background-color: #0f7dec;}
+}
+/* Standard syntax */
+@keyframes buttonColor {
+	from {background-color: #ffffff;}
+	to {background-color: #0f7dec;}
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes buttonText {
+	from {color: #000000;}
+	to {color: #ffffff;}
+}
+/* Standard syntax */
+@keyframes buttonText {
+	from {color: #000000;}
+	to {color: #ffffff;}
+}
 /*--------------------------------------------------------------
 5.1 Links
 --------------------------------------------------------------*/
@@ -1134,6 +1159,23 @@ input[type="search"] {
 /*--------------------------------------------------------------
 10.0 Content
 --------------------------------------------------------------*/
+/* Ad compliance notice */
+div #adNotice {
+	text-align: center;
+	font-size: 8px;
+	font-size: .8rem;
+	font-family: sans-serif;
+}
+/* style for sources under photos */
+    #source {
+	font-size: 10px;
+	font-size: 1rem;
+	text-align: center;
+}
+	#source a {
+		text-decoration: none;
+	}
+
 /*--------------------------------------------------------------
 10.1 Posts and pages
 --------------------------------------------------------------*/
@@ -1141,14 +1183,14 @@ input[type="search"] {
 }
 /* Typography */
 .entry-title {
-	margin: 0 0 0 .5em;
+	margin: 0 0 0 .3em;
 	font-weight: 400;
 	font-size: 40px;
 	font-size: 4rem;
 	line-height: 1.3em;
 	color: #000;
 	color: hsl(0, 0%, 0%);
-
+	padding-bottom: .1em;
 }
 
 .entry-content a {
@@ -1160,7 +1202,11 @@ input[type="search"] {
 .entry-content h3,
 .entry-content h4,
 .entry-content h5,
-.entry-content h6 { margin-bottom: .4em; }
+.entry-content h6 { margin-bottom: .4em;
+					margin-left: .5em;
+					text-align: left;
+}
+
 
 .entry-content h1 {
 	font-size: 32px;

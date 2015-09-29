@@ -14,22 +14,23 @@ Layout: Content-Sidebar
 	background: hsl(0, 0%, 61%);
 }
 
+/* All widget areas (lines 18-34) are formated for Google Adsense ads with compliance "advertisment" text  */
 .site-content .widget-area {
 	width: 380px;
 	float: right;
-	padding: 1rem 4rem;
+	padding: .3em 4em .3em 4em;
 	background: #e4e3e2;
 }
 
 /* CSS added to position top widget area on single post pages*/
 .site-content .top-widgets {
 	width: 100%;
-	padding: 1em 0 .5em 1em;
+	padding: .3em 0 .3em 1em;
 	float: left;
 }
 .site-content .bottom-widgets {
 	width: 100%;
-	padding: 1em 0 .5em 1em;
+	padding: 0 0 .3em 1em;
 	float: left;
 }
  /* ============================*/

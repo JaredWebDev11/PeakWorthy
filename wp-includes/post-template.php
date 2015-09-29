@@ -805,8 +805,8 @@ function wp_link_pages( $args = '' ) {
 		'link_after'       => '',
 		'next_or_number'   => 'next',
 		'separator'        => ' ',
-		'nextpagelink'     => __( 'Next page' ),
-		'previouspagelink' => __( 'Previous page' ),
+		'nextpagelink'     => __( 'Next' ),
+		'previouspagelink' => __( 'Previous' ),
 		'pagelink'         => '%',
 		'echo'             => 1
 	);
