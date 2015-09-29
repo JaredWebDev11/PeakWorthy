@@ -18,7 +18,7 @@ Layout: Content-Sidebar
 .site-content .widget-area {
 	width: 380px;
 	float: right;
-	padding: .3em 4em .3em 4em;
+	padding: .3em 0 .3em 4em;
 	background: #e4e3e2;
 }
 
