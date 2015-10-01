@@ -27,7 +27,7 @@ function my_simone_custom_header_setup() {
 		'default-image'          => '',
 		'default-text-color'     => 'ffffff',
 		'width'                  => 1280,
-		'height'                 => 120,
+		'height'                 => 100,
 		'flex-height'            => false,
 		'wp-head-callback'       => 'my_simone_header_style',
 		'admin-head-callback'    => 'my_simone_admin_header_style',
