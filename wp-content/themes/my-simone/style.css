@@ -1657,35 +1657,53 @@ object {
 --------------------------------------------------------------*/
 
 /* Footer widgets responsive */
-@media screen and (max-width: 879px) {
-	#footer-widgets { width: 100%!important; }
 
-	.footer-widgets .widget {
-		float: none;
-		width: 100%;
-		margin: 0 0 8rem;
-	}
-}
+/*
+
+		@media screen and (max-width: 879px) {
+			#footer-widgets { width: 100%!important; }
+
+			.footer-widgets .widget {
+				float: none;
+				width: 100%;
+				margin: 0 0 8rem;
+			}
+		}
+
+*/
+
 /* Top widgets responsive */
-@media screen and (max-width: 879px) {
-	#top-widgets { width: 100%!important; }
 
-	.top-widgets .widget {
-		float: none;
-		width: 100%;
-		margin: 0 2rem 1rem;
-	}
-}
+/*
+
+		@media screen and (max-width: 879px) {
+			#top-widgets { width: 100%!important; }
+
+			.top-widgets .widget {
+				float: none;
+				width: 100%;
+				margin: 0 2rem 1rem;
+			}
+		}
+
+*/
+
+
 /* Bottom widgets responsive */
-@media screen and (max-width: 879px) {
-	#bottom-widgets { width: 100%!important; }
 
-	.bottom-widgets .widget {
-		float: none;
-		width: 100%;
-		margin: 0 2rem 1rem;
-	}
-}
+/*
+
+			@media screen and (max-width: 879px) {
+				#bottom-widgets { width: 100%!important; }
+
+				.bottom-widgets .widget {
+					float: none;
+					width: 100%;
+					margin: 0 2rem 1rem;
+				}
+			}
+
+*/
 
 /*--------------------------------------------------------------
 15.2 - Font Sizes [-FOR 11.1 Posts and Pages-]
