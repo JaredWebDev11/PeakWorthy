@@ -246,9 +246,18 @@ dt {
 dd {
 	margin: 0 1.5em 1.5em;
 }
+
+img.size-auto,
+img.size-full,
+img.size-large,
+img.size-medium,
+.attatchment img,
 img {
 	height: auto; /* Make sure images are scaled correctly. */
 	max-width: 100%; /* Adhere to container width. */
+
+	/* need attatchment, large and small thumbnail maybe sidebar image   */
+
 }
 figure {
 	margin: 0;
