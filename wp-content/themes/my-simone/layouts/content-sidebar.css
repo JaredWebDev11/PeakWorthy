@@ -16,10 +16,10 @@ Layout: Content-Sidebar
 
 /* All widget areas (lines 18-34) are formated for Google Adsense ads with compliance "advertisment" text  */
 .site-content .widget-area {
-	width: 380px;
+	width: 300px;
 	float: right;
-	padding: .3em 0 .3em 4em;
-	background: #ffffff;
+	padding: .3em 0 .3em 0em;
+	background: #f0f0f0;
 }
 
 /* CSS added to position top widget area on single post pages*/
@@ -75,6 +75,12 @@ Layout: Content-Sidebar
 /*--------------------------------------------------------------
      Responsive Styles
 --------------------------------------------------------------*/
+
+@media screen and (max-width: 729px) {
+	.widget-area {
+		display: none;
+	}
+}
 
 @media screen and (min-width: 1540px) {
 	.content-area {

@@ -534,8 +534,8 @@ a:active {
 .main-navigation .current_page_parent .current_page_item > a {
     color: #fff;
     color: hsl(0, 0%, 100%);
-    background: #313131;
-    background: hsl(0, 0%, 19%);
+    background: #0095eb;
+    background: hsl(201, 100%, 46%);
 } 
 
 /* Social Menu */
@@ -940,7 +940,7 @@ input[type="search"] {
 .widget_pages a {
 	display: block;
 	padding: 1em 0;
-	border-bottom: solid 1px hsl(0, 0%, 90%);
+	border-bottom: solid 1px hsl(0, 0%, 94%);
 }
 
 .widget_nav_menu li,
@@ -1495,16 +1495,16 @@ object {
 	cursor: pointer;
 	display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 729px) {
 	.menu-toggle {
 		display: block;
-		height: 3.75em;
+		height: 2.75em;  /* height of main nav bar on mobile */
 		padding: 0 1em;
 		font-weight: normal;
-		font-size: 14px;
-		font-size: 1.4rem;
+		font-size: 18px;
+		font-size: 1.8rem;
 		text-decoration: none;
-		line-height: 3.75em;
+		line-height: 2.75em;  /* height-position of "MENU" in main nav bar */
 		color: white;
 	}
 
@@ -1524,7 +1524,7 @@ object {
 	}
 
 	.main-navigation li a {
-		padding: 1.3em 2em;
+		padding: .6em 2em;
 	}
 
 	.main-navigation li li a {
@@ -1536,8 +1536,8 @@ object {
 	}
 
 	.main-navigation li:hover > a {
-		background: #313131;
-		background: hsl(0, 0%, 19%);
+		background: #0095eb;
+		background: hsl(201, 100%, 46%);
 	}
 
 	.main-navigation ul ul,
@@ -1547,16 +1547,16 @@ object {
 		left: 0;
 		display: block;
 		float: none;
-		background: #313131;
-		background: hsl(0, 0%, 19%);
+		background: #0095eb;
+		background: hsl(201, 100%, 46%);
 	}
 
 	.main-navigation ul ul a { width: 100%; }
 
 	.main-navigation ul a:hover,
 	.main-navigation ul ul a:hover {
-		background: #4d4d4d;
-		background: hsl(0, 0%, 30%);
+		background: #0095eb;
+		background: hsl(201, 100%, 46%);
 	}
 
 	.main-navigation .current_page_ancestor { background: inherit; }
@@ -1572,14 +1572,14 @@ object {
 	.main-navigation .current_page_parent .current_page_item > a  {
 		color: #fff;
 		color: hsl(0, 0%, 100%);
-		background: #4d4d4d;
-		background: hsl(0, 0%, 30%);
+		background: #0095eb;
+		background: hsl(201, 100%, 46%);
 	}
 }
 
 /* Social Menu */		/* FOR 5.2 Social Menu  */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 729px) {
 	#menu-social ul {
 		position: absolute;
 		top: 0;
@@ -1595,7 +1595,7 @@ object {
 }
 
 /* Header responsive */		/* FOR 9.0 Header */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 729px) {
 	.site-branding { padding: 0; }
 
 	.title-box {
@@ -1608,17 +1608,19 @@ object {
 
 /* Header Search */  /* FOR 9.0 Header */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 729px) {
 	.search-toggle {
 		position: absolute;
 		top: 0;
 		right: 0;
 		margin-right: 0;
+		height: 50px;
+		line-height: 2em;
 	}
 }
 
 /* Comments responsive */  /* FOR 11.3 Comments */
-@media screen and (max-width:600px) {
+@media screen and (max-width:729px) {
 	.comment-list ol { margin-left: 0; }
 
 	.comment-content ol { margin-left: 1.5em; }
