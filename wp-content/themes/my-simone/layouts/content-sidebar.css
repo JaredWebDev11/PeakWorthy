@@ -173,11 +173,18 @@ Layout: Content-Sidebar
 		margin-left: 1.5em;
 		text-align: left;
 	}
+	.site-content .top-widgets,
+	.site-content .bottom-widgets {
+		margin: 0 auto;
+		text-align: left;
+	}
 	.entry-title {
 		text-align: left;
 	}
-	.top-widget {
+	.top-widgets,
+	.bottom-widgets{
 		max-width: 780px;
+		max-width: 78rem;
 
 	}
 }
