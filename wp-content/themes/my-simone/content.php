@@ -8,6 +8,7 @@
 
 	<div class="index-box">
 
+		<?php get_sidebar('topMobile'); ?>  <!-- top (MOBILE) ad widget here -->
 		<?php get_sidebar('top'); ?>  <!-- top ad widget here -->
 
 		<?php
