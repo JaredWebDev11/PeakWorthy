@@ -178,14 +178,11 @@ Layout: Content-Sidebar
 	.site-content .top-widgets,
 	.site-content .bottom-widgets {
 		text-align: left;
-		margin-left: 0%;
+		padding-left: 1em;
+		max-width: 780px;
+		max-width: 78rem;
 	}
 	.entry-title {
 		text-align: left;
-	}
-	.top-widgets,
-	.bottom-widgets{
-		max-width: 780px;
-		max-width: 78rem;
 	}
 }
