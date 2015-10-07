@@ -11,9 +11,10 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
+			<?php get_sidebar('footerMobile'); ?>
             <?php get_sidebar('footer'); ?>
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://peakworthy.com', 'my-simone' ) ); ?>"><?php print'<div class="copyWrite">Peak Worthy Copywrite &copy 2015</div>'; ?></a>
+			<?php print'<div class="copyWrite">Peak Worthy Copywrite &copy 2015</div>'; ?>
 			<a href="<?php echo esc_url( __( 'http://peakworthy.com/dmca/', 'my-simone' ) ); ?>"><?php printf( __( 'DMCA', 'my-simone' ) ); ?></a>
 			<span class="sep"> | </span>
 			<a href="<?php echo esc_url( __( 'http://peakworthy.com/privacy-policy/' ) ); ?>"><?php printf( __( 'Privacy Policy', 'my-simone') ); ?></a>
