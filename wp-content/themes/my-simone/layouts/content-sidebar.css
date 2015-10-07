@@ -177,6 +177,8 @@ Layout: Content-Sidebar
 	}
 	.site-content .top-widgets,
 	.site-content .bottom-widgets {
+		margin-left: 50%;
+		margin-right: 50%;
 		text-align: left;
 		max-width: 780px;
 		max-width: 78rem;
