@@ -27,7 +27,7 @@ Layout: Content-Sidebar
 }
 .site-content .top-widgets,
 .site-content .bottom-widgets {
-	width: 100%;
+	max-width: 100%;
 	padding: .3em 0 .3em 0em;
 	background: #ffffff;
 
@@ -126,8 +126,12 @@ Layout: Content-Sidebar
 	.content-area {
 		width: 69%;
 	}
-	.widget-area {
+	.site-content .widget-area {
 		max-width: 30%;
+	}
+	.site-content .top-widgets,
+	.site-content .bottom-widgets {
+		max-width: 100%;
 	}
 	.small-index-thumbnail {
 		max-width: 25%;
@@ -146,18 +150,24 @@ Layout: Content-Sidebar
 		text-align: center;
 	}
 
-	.widget-area {
+	.site-content .widget-area {
 		margin-left: 0.5em;
 		text-align: left;
+	}
+	.site-content .top-widgets,
+	.site-content .bottom-widgets {
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.entry-title {
 		text-align: left;
 	}
 
-	.top-widget {
+	.top-widgets,
+	.bottom-widgets{
 		max-width: 780px;
-
+		max-width: 78rem;
 	}
 }
 
@@ -177,7 +187,6 @@ Layout: Content-Sidebar
 	.site-content .bottom-widgets {
 		margin-left: auto;
 		margin-right: auto;
-		text-align: left;
 	}
 	.entry-title {
 		text-align: left;
@@ -186,6 +195,5 @@ Layout: Content-Sidebar
 	.bottom-widgets{
 		max-width: 780px;
 		max-width: 78rem;
-
 	}
 }
