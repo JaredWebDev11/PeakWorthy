@@ -29,6 +29,7 @@ Layout: Content-Sidebar
 .site-content .bottom-widgets {
 	width: 100%;
 	padding: .3em 0 .3em 0em;
+	background: #ffffff;
 
 }
 
@@ -168,7 +169,7 @@ Layout: Content-Sidebar
 	.site-content .bottom-widgets {
 		text-align: left;
 	}
-	.widget-area {
+	.site-content .widget-area {
 		margin-left: 1.5em;
 		text-align: left;
 	}
