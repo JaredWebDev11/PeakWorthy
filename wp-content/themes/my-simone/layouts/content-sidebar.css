@@ -158,6 +158,10 @@ Layout: Content-Sidebar
 	.site-content {
 		text-align: center;
 	}
+	.site-content .top-widgets,
+	.site-content .bottom-widgets {
+		text-align: left;
+	}
 	.widget-area {
 		margin-left: 1.5em;
 		text-align: left;
