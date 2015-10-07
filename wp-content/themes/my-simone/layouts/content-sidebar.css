@@ -27,7 +27,7 @@ Layout: Content-Sidebar
 }
 .site-content .top-widgets,
 .site-content .bottom-widgets {
-	max-width: 100%;
+	width: 100%;
 	padding: .3em 0 .3em 0em;
 	background: #ffffff;
 
@@ -154,11 +154,6 @@ Layout: Content-Sidebar
 		margin-left: 0.5em;
 		text-align: left;
 	}
-	.site-content .top-widgets,
-	.site-content .bottom-widgets {
-		margin-left: auto;
-		margin-right: auto;
-	}
 
 	.entry-title {
 		text-align: left;
@@ -175,18 +170,15 @@ Layout: Content-Sidebar
 	.site-content {
 		text-align: center;
 	}
-	.site-content .top-widgets,
-	.site-content .bottom-widgets {
-		text-align: left;
-	}
+
 	.site-content .widget-area {
 		margin-left: 1.5em;
 		text-align: left;
 	}
 	.site-content .top-widgets,
 	.site-content .bottom-widgets {
-		margin-left: auto;
-		margin-right: auto;
+		text-align: left;
+		margin-left: 0%;
 	}
 	.entry-title {
 		text-align: left;
