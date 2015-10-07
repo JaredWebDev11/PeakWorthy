@@ -178,7 +178,6 @@ Layout: Content-Sidebar
 	.site-content .top-widgets,
 	.site-content .bottom-widgets {
 		text-align: left;
-		padding-left: 1em;
 		max-width: 780px;
 		max-width: 78rem;
 	}
