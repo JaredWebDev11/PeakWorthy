@@ -92,7 +92,7 @@ function my_simone_widgets_init() {
         
 	register_sidebar( array(
 		'name'          => __( 'Footer Widgets', 'my-simone' ),
-                'description'   => __( 'Footer widgets area appears in the footer of the site.', 'my-simone'),
+		'description'   => __( 'Footer widgets area appears in the footer of the site.', 'my-simone'),
 		'id'            => 'sidebar-2',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
@@ -114,6 +114,35 @@ function my_simone_widgets_init() {
 		'name'          => __( 'Bottom Widgets', 'my-simone' ),
 		'description'   => __( 'Bottom Widget that goes under content and above footer.', 'my-simone'),
 		'id'            => 'sidebar-4',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Mobile Top Widget', 'my-simone' ),
+		'description'   => __( 'Top Widget that goes above content and under main nav (MOBILE ONLY).', 'my-simone'),
+		'id'            => 'sidebar-5',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Mobile Bottom Widget', 'my-simone' ),
+		'description'   => __( 'Bottom Widget that goes under content and above footer (MOBILE ONLY).', 'my-simone'),
+		'id'            => 'sidebar-6',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+	register_sidebar( array(
+		'name'          => __( 'Mobile Footer Widget', 'my-simone' ),
+		'description'   => __( 'Footer Widget (MOBILE ONLY).', 'my-simone'),
+		'id'            => 'sidebar-7',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',

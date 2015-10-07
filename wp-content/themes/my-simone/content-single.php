@@ -21,6 +21,7 @@
 
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 
+		<?php get_sidebar('topMobile'); ?>  <!-- top (MOBILE) ad widget here -->
 		<?php get_sidebar('top'); ?>  <!-- top ad widget here -->
 
 	</header><!-- .entry-header -->
@@ -37,7 +38,8 @@
 	</div><!-- .entry-content -->
 
 	<div class="entry-header2">
-	<?php get_sidebar('bottom'); ?>  <!-- bottom ad widget here -->
+		<?php get_sidebar('bottomMobile'); ?>  <!-- bottom (MOBILE) ad widget here -->
+		<?php get_sidebar('bottom'); ?>  <!-- bottom ad widget here -->
 	</div>
 
 <?php

@@ -13,26 +13,19 @@ Layout: Content-Sidebar
 	background: #f0f0f0;
 	background: hsl(0, 0%, 94%);
 }
+.content-area{
+	display: inline-block;
+}
 
 /* All widget areas (lines 18-34) are formated for Google Adsense ads with compliance "advertisment" text  */
 .site-content .widget-area {
-	width: 380px;
-	float: right;
-	padding: .3em 0 .3em 4em;
-	background: #ffffff;
+	width: 300px;
+	padding: .3em 0 .3em 0em;
+	background: #f0f0f0;
+	display: inline-block;
+	vertical-align: top;
 }
 
-/* CSS added to position top widget area on single post pages*/
-.site-content .top-widgets {
-	width: 100%;
-	padding: .3em 0 .3em 1em;
-	float: left;
-}
-.site-content .bottom-widgets {
-	width: 100%;
-	padding: 0 0 .3em 1em;
-	float: left;
-}
  /* ============================*/
 
 .site-footer {
@@ -72,71 +65,6 @@ Layout: Content-Sidebar
 	background: hsl(0, 0%, 100%);    /* this controls color of entry-meta box that needs attention */
 }
 
-@media screen and (min-width: 1540px) {
-	.content-area {
-		float: left;
-		width: 100%;
-		margin-right: -380px;
-	}
-	.site-content .top-widgets {
-		width: auto;
-		max-width: 780px;
-		float: none;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	.site-content .bottom-widgets {
-		width: auto;
-		max-width: 780px;
-		float: none;
-		margin: 1em auto 0;
-	}
-}
-
-@media screen and (min-width: 1160px) and (max-width: 1539px) {
-	.content-area {
-		width: 100%;
-		float: left;
-		margin-left: -380px;
-		padding-left: 380px;
-	}
-	.site-content .top-widgets {
-		width: auto;
-		max-width: 780px;
-		float: none;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	.site-content .bottom-widgets {
-		width: auto;
-		max-width: 780px;
-		float: none;
-		margin: 1em auto 0;
-	}
-	.entry-header,
-	.entry-header2,
-	.entry-content,
-	.entry-footer,
-	.tag-links,
-	.post-navigation,
-	.comments-area,
-	.index-box,
-	.page-header,
-	.paging-navigation {
-		margin-right: 0;
-	}
-
-}
-
-@media screen and (max-width: 1159px) {
-	.site-content .widget-area {
-		width: auto;
-		max-width: 780px;
-		float: none;
-		margin-right: auto;
-		margin-left: auto;
-	}
-}
 .page-header,
 .paging-navigation {
 	padding-top: 1em;
@@ -151,3 +79,94 @@ Layout: Content-Sidebar
 	margin-bottom: 1em;
 }
 
+/*--------------------------------------------------------------
+     Responsive Styles
+--------------------------------------------------------------*/
+
+@media screen and (max-width: 729px) {
+	.site-content .widget-area,
+	.site-content .top-widgets,
+	.site-content .bottom-widgets,
+	.site-content .footer-widgets {
+		display: none;
+	}
+	.small-index-thumbnail {
+		max-width: 25%;
+	}
+	.page-links a {
+		width: 140px;
+	}
+}
+
+@media screen and (min-width: 730px){
+	.site-content .top-widgets-mobile,
+	.site-content .bottom-widgets-mobile,
+	.site-content .footer-widgets-mobile {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 730px) and (max-width: 800px) {
+	.main-navigation a {
+		padding: .5em .7em;
+	}
+	.search-toggle {
+		margin-right: 10px;
+	}
+}
+
+@media screen and (min-width: 730px) and (max-width: 1080px) {
+	.content-area {
+		width: 69%;
+	}
+	.widget-area {
+		max-width: 30%;
+	}
+	.small-index-thumbnail {
+		max-width: 25%;
+	}
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1100px) {
+	.widget-area {
+		float: right;
+	}
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+
+	.site-content {
+		text-align: center;
+	}
+
+	.widget-area {
+		margin-left: 0.5em;
+		text-align: left;
+	}
+
+	.entry-title {
+		text-align: left;
+	}
+
+	.top-widget {
+		max-width: 780px;
+
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.site-content {
+		text-align: center;
+	}
+	.widget-area {
+		margin-left: 1.5em;
+		text-align: left;
+	}
+	.entry-title {
+		text-align: left;
+	}
+	.top-widget {
+		max-width: 780px;
+
+	}
+}
