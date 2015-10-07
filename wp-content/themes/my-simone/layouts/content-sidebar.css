@@ -25,6 +25,12 @@ Layout: Content-Sidebar
 	display: inline-block;
 	vertical-align: top;
 }
+.site-content .top-widgets,
+.site-content .bottom-widgets {
+	width: 100%;
+	padding: .3em 0 .3em 0em;
+
+}
 
  /* ============================*/
 
