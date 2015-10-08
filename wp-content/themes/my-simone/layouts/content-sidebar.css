@@ -163,5 +163,9 @@ Layout: Content-Sidebar
 	.site-content .top-widgets,
 	.site-content .bottom-widgets {
 		text-align: center;
+		margin-left: 0;
+	}
+	.site-content .bottom-widgets {
+		margin-top: 1em;
 	}
 }
