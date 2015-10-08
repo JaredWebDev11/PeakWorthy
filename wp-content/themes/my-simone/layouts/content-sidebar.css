@@ -91,9 +91,6 @@ Layout: Content-Sidebar
 --------------------------------------------------------------*/
 
 @media screen and (max-width: 729px) {
-	.site-content {
-		width: 100%;
-	}
 	.site-content .widget-area,
 	.site-content .top-widgets,
 	.site-content .bottom-widgets,
