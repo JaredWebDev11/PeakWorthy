@@ -155,16 +155,13 @@ Layout: Content-Sidebar
 	.site-content .widget-area {
 		margin-left: 1em;
 	}
-
+	.entry-title,
+	.site-content .widget-area {
+		text-align: left;
+	}
 	.site-content,
 	.site-content .top-widgets,
 	.site-content .bottom-widgets {
 		text-align: center;
-		margin:0;
-	}
-
-	.entry-title,
-	.site-content .widget-area {
-		text-align: left;
 	}
 }
