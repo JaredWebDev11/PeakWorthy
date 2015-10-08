@@ -16,6 +16,19 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 	<?php wp_head(); ?>
+
+	<!-- Tag for Tynt Ads    -->
+	<!-- BEGIN 33Across SiteCTRL Script -->
+	<script type='text/javascript'>
+		if(document.location.protocol=='http:'){
+			var Tynt=Tynt||[];Tynt.push('bUQZzIBF0r5zpGrkHcnlKl');
+
+			(function(){var h,s=document.createElement('script');s.src='http://cdn.tynt.com/ti.js';
+				h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();}
+	</script>
+	<!-- END 33Across SiteCTRL Script -->
+
+
 </head>
 
 <body <?php body_class(); ?>>
