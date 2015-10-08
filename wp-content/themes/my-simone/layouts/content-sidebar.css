@@ -105,14 +105,6 @@ Layout: Content-Sidebar
 	}
 }
 
-@media screen and (min-width: 730px){
-	.site-content .top-widgets-mobile,
-	.site-content .bottom-widgets-mobile,
-	.site-content .footer-widgets-mobile {
-		display: none;
-	}
-}
-
 @media screen and (min-width: 730px) and (max-width: 800px) {
 	.main-navigation a {
 		padding: .5em .7em;
@@ -129,6 +121,13 @@ Layout: Content-Sidebar
 	.site-content .widget-area {
 		max-width: 30%;
 	}
+
+	.site-content .top-widgets,
+	.site-content .bottom-widgets,
+	.site-content .footer-widgets {
+		display: none;
+	}
+
 	.site-content .top-widgets,
 	.site-content .bottom-widgets {
 		max-width: 100%;
@@ -137,6 +136,13 @@ Layout: Content-Sidebar
 	}
 	.small-index-thumbnail {
 		max-width: 25%;
+	}
+}
+@media screen and (min-width: 1080px){
+	.site-content .top-widgets-mobile,
+	.site-content .bottom-widgets-mobile,
+	.site-content .footer-widgets-mobile {
+		display: none;
 	}
 }
 
