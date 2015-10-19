@@ -224,7 +224,7 @@ hr {
 	background-color: #ccc;
 	border: 0;
 	height: 1px;
-	margin-bottom: 1.5em;
+	margin-bottom: 2.2em;
 }
 ul, ol {
 	margin: 0 0 1.5em 3em;
@@ -385,7 +385,7 @@ textarea {
 	height: 50px;
 	width: 150px;
 	display: inline-block;
-	background: #f0f0f0;
+	background: #0f7dec;
 
 }
 .page-links a:link {
@@ -1031,14 +1031,14 @@ input[type="search"] {
 /* Ad compliance notice */
 div #adNotice {
 	text-align: center;
-	font-size: 10px;
-	font-size: 1rem;
+	font-size: 12px;
+	font-size: 1.2rem;
 	font-family: sans-serif;
 }
 /* style for sources under photos */
     #source {
-	font-size: 12px;
-	font-size: 1.2rem;
+	font-size: 14px;
+	font-size: 1.4rem;
 	text-align: center;
 }
 	#source a {
