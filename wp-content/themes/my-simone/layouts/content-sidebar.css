@@ -93,6 +93,7 @@ Layout: Content-Sidebar
 @media screen and (max-width: 729px) {
 	.site-content .widget-area,
 	.site-content .top-widgets,
+	.site-content .above-nav-widgets,
 	.site-content .bottom-widgets,
 	.site-content .footer-widgets {
 		display: none;
@@ -134,6 +135,7 @@ Layout: Content-Sidebar
 			max-width: 30%;
 		}
 		.site-content .top-widgets,
+		.site-content .above-nav-widgets,
 		.site-content .bottom-widgets,
 		.site-content .footer-widgets {
 			display: none;
@@ -154,6 +156,7 @@ Layout: Content-Sidebar
 			width: 78rem;
 		}
 		.site-content .top-widgets-mobile,
+		.site-content .above-nav-widgets-mobile,
 		.site-content .bottom-widgets-mobile,
 		.site-content .footer-widgets-mobile {
 			display: none;
