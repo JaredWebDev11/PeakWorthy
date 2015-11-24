@@ -98,6 +98,12 @@ Layout: Content-Sidebar
 	.site-content .footer-widgets {
 		display: none;
 	}
+	.site-content .top-widgets-mobile,
+	.site-content .bottom-widgets-mobile {
+		max-width: 100%;
+		margin: 0;
+		text-align: center;
+	}
 	.small-index-thumbnail {
 		max-width: 25%;
 	}
@@ -140,8 +146,8 @@ Layout: Content-Sidebar
 		.site-content .footer-widgets {
 			display: none;
 		}
-		.site-content .top-widgets,
-		.site-content .bottom-widgets {
+		.site-content .top-widgets-mobile,
+		.site-content .bottom-widgets-mobile {
 			max-width: 100%;
 			margin: 0;
 			text-align: center;
