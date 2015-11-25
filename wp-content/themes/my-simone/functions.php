@@ -148,6 +148,33 @@ function my_simone_widgets_init() {
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
+	register_sidebar( array(
+		'name'          => __( 'Above Nav Buttons Widget', 'my-simone' ),
+		'description'   => __( 'Widget that goes above the next/previous buttons.', 'my-simone'),
+		'id'            => 'sidebar-8',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+	register_sidebar( array(
+		'name'          => __( 'Mobile Above Nav Buttons Widget', 'my-simone' ),
+		'description'   => __( 'Widget that goes above the next/previous buttons (MOBILE ONLY).', 'my-simone'),
+		'id'            => 'sidebar-9',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+	register_sidebar( array(
+		'name'          => __( 'Header Widget', 'my-simone' ),
+		'description'   => __( 'Widget that sits on top of header image.', 'my-simone'),
+		'id'            => 'sidebar-10',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
 }
 add_action( 'widgets_init', 'my_simone_widgets_init' );
 

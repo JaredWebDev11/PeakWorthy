@@ -1073,9 +1073,10 @@ div #adNotice {
 .entry-content h3,
 .entry-content h4,
 .entry-content h5,
-.entry-content h6 { margin-bottom: .4em;
-					margin-left: .5em;
-					text-align: left;
+.entry-content h6 {
+	margin-bottom: .4em;
+	margin-left: .5em;
+	text-align: left;
 }
 
 

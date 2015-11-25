@@ -29,6 +29,9 @@
 	<div class="entry-content">
 		<?php the_content(); ?>
 
+		<?php get_sidebar('aboveNextMobile'); ?>  <!-- Above NEXT/PREV buttons (MOBILE) ad widget here -->
+		<?php get_sidebar('aboveNext'); ?>  <!-- Above NEXT/PREV buttons ad widget here -->
+
 		<?php wp_link_pages( array(
 			'before'      => '<div class="page-links">' . __( '', 'my-simone' ),
 			'after'       => '</div>',
